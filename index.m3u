@@ -1,0 +1,4 @@
+#EXTM3U url-tvg="https://raw.githubusercontent.com/darmazz/ott/main/epg.xml"
+
+#EXTINF:-1 group-title="Master", OTT Playlist
+https://raw.githubusercontent.com/darmazz/ott/main/playlist.m3u
