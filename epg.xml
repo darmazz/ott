@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tv>
+  <url>https://pluto.freechannels.me/epg.xml</url>
+  <url>https://rakuten.freechannels.me/epg.xml</url>
+  <url>https://plex.freechannels.me/epg.xml</url>
+  <url>https://epg.pw/xmltv/epg.xml</url>
+</tv>
