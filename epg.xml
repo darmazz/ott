@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<tv>
-  <url>https://pluto.freechannels.me/epg.xml</url>
-  <url>https://rakuten.freechannels.me/epg.xml</url>
-  <url>https://plex.freechannels.me/epg.xml</url>
-  <url>https://epg.pw/xmltv/epg.xml</url>
-</tv>
+#EXTM3U url-tvg="https://iptv-org.github.io/epg/guides/my.xml,https://iptv-org.github.io/epg/guides/id.xml"
+
+#EXTINF:-1 tvg-id="pluto-movies" group-title="Movies", Pluto Movies
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5d8d6df59e6e2d00098b9d28/master.m3u8
+
+#EXTINF:-1 tvg-id="plex-movies" group-title="Movies", Plex Movies
+https://streams.plexapp.com/plex/movies.m3u8
