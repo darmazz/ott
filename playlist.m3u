@@ -1,67 +1,11 @@
-#EXTM3U
+#EXTM3U url-tvg="https://iptv-org.github.io/epg/guides/my.xml,https://iptv-org.github.io/epg/guides/id.xml"
 
 # ===== MOVIES =====
-#EXTINF:-1 group-title="Movies - Pluto", Pluto Movies
-https://pluto.freechannels.me/playlist.m3u
-#EXTINF:-1 group-title="Movies - Rakuten", Rakuten Movies
-https://rakuten.freechannels.me/playlist.m3u
-#EXTINF:-1 group-title="Movies - Plex", Plex Movies
-https://plex.freechannels.me/playlist.m3u
-#EXTINF:-1 group-title="Movies - Bollywood", Bollywood India
-https://iptv-org.github.io/iptv/categories/movies.m3u
+#EXTINF:-1 tvg-id="pluto-movies" group-title="Movies", Pluto Movies
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5d8d6df59e6e2d00098b9d28/master.m3u8
 
-# ===== SERIES / ENTERTAINMENT =====
-#EXTINF:-1 group-title="Entertainment - Plex", Plex Entertainment
-https://plex.freechannels.me/playlist.m3u
-#EXTINF:-1 group-title="Entertainment - Pluto", Pluto Entertainment
-https://pluto.freechannels.me/playlist.m3u
+#EXTINF:-1 tvg-id="plex-movies" group-title="Movies", Plex Movies
+https://streams.plexapp.com/plex/movies.m3u8
 
-# ===== KIDS =====
-#EXTINF:-1 group-title="Kids - Pluto", Pluto Kids
-https://pluto.freechannels.me/playlist.m3u
-#EXTINF:-1 group-title="Kids - Rakuten", Rakuten Kids
-https://rakuten.freechannels.me/playlist.m3u
-#EXTINF:-1 group-title="Kids - Plex", Plex Kids
-https://plex.freechannels.me/playlist.m3u
-
-# ===== NEWS =====
-#EXTINF:-1 group-title="News - Pluto", Pluto News
-https://pluto.freechannels.me/playlist.m3u
-#EXTINF:-1 group-title="News - Plex", Plex News
-https://plex.freechannels.me/playlist.m3u
-#EXTINF:-1 group-title="News - Malaysia", MY News
-https://iptv-org.github.io/iptv/countries/my.m3u
-#EXTINF:-1 group-title="News - Indonesia", ID News
-https://iptv-org.github.io/iptv/countries/id.m3u
-
-# ===== SPORTS =====
-#EXTINF:-1 group-title="Sports - Pluto", Pluto Sports
-https://pluto.freechannels.me/playlist.m3u
-#EXTINF:-1 group-title="Sports - Plex", Plex Sports
-https://plex.freechannels.me/playlist.m3u
-#EXTINF:-1 group-title="Sports - Global", Global Sports
-https://iptv-org.github.io/iptv/categories/sports.m3u
-
-# ===== MUSIC =====
-#EXTINF:-1 group-title="Music - Plex", Plex Music
-https://plex.freechannels.me/playlist.m3u
-#EXTINF:-1 group-title="Music - Pluto", Pluto Music
-https://pluto.freechannels.me/playlist.m3u
-
-# ===== LIFESTYLE =====
-#EXTINF:-1 group-title="Lifestyle - Pluto", Pluto Lifestyle
-https://pluto.freechannels.me/playlist.m3u
-#EXTINF:-1 group-title="Lifestyle - Plex", Plex Lifestyle
-https://plex.freechannels.me/playlist.m3u
-#EXTINF:-1 group-title="Lifestyle - Asia", Asia Lifestyle
-https://iptv-org.github.io/iptv/categories/lifestyle.m3u
-
-# ===== DOCUMENTARY / SCIENCE =====
-#EXTINF:-1 group-title="Documentary - Plex", Plex Docs
-https://plex.freechannels.me/playlist.m3u
-#EXTINF:-1 group-title="Documentary - Pluto", Pluto Docs
-https://pluto.freechannels.me/playlist.m3u
-
-# ===== RELIGION =====
-#EXTINF:-1 group-title="Religion - MY", TV Alhijrah
-https://iptv-org.github.io/iptv/categories/religious.m3u
+#EXTINF:-1 tvg-id="rakuten-movies" group-title="Movies", Rakuten Movies
+https://rakuten-live.akamaized.net/movies/index.m3u8
