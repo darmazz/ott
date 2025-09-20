@@ -1,4 +1,4 @@
 #EXTM3U url-tvg="https://iptv-org.github.io/epg/guides/en.xml,https://iptv-org.github.io/epg/guides/my.xml,https://iptv-org.github.io/epg/guides/id.xml"
 
-#EXTINF:-1 group-title="Master", OTT Master
+#EXTINF:-1 group-title="Master", OTT Master Playlist
 https://raw.githubusercontent.com/darmazz/ott/main/playlist.m3u
