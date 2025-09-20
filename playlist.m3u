@@ -1,100 +1,42 @@
 #EXTM3U
 
 ##### MOVIES #####
-# Pluto – Pluto TV Movies
-#EXTINF:-1 group-title="Movies", Pluto TV Movies
-https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5d8d7b34d676980009bbf86f/master.m3u8
-# Plex – Free Movies
-#EXTINF:-1 group-title="Movies", Plex Free Movies
-https://streams.plexapp.com/plex/movies.m3u8
-# Rakuten – Movies (free)
-#EXTINF:-1 group-title="Movies", Rakuten Movies
-https://rakuten-live.akamaized.net/movies/index.m3u8
-# Fallback globals
-#EXTINF:-1 group-title="Movies", Runtime Movies
-https://rtmv-vizio.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="Movies", MovieSphere
-https://moviesphere.global.ssl.fastly.net/xumo/master.m3u8
+#EXTINF:-1 group-title="Movies", Pluto Movies
+https://iptv-org.github.io/iptv/categories/movies.m3u
 
-##### SERIES / ENTERTAINMENT #####
-# Pluto – Classic TV (contoh entertainment)
-#EXTINF:-1 group-title="Entertainment", Pluto TV Classics
-https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5c46ada7e1c1d46b6f76a1c2/master.m3u8
-# Plex – Entertainment (promo/free)
-#EXTINF:-1 group-title="Entertainment", Plex Entertainment
-https://streams.plexapp.com/plex/entertainment.m3u8
-# Rakuten – Family/Entertainment
-#EXTINF:-1 group-title="Entertainment", Rakuten Family
-https://rakuten-live.akamaized.net/family/index.m3u8
+##### ENTERTAINMENT #####
+#EXTINF:-1 group-title="Entertainment", Global Entertainment
+https://iptv-org.github.io/iptv/categories/entertainment.m3u
 
 ##### KIDS #####
-# Pluto – Kids
-#EXTINF:-1 group-title="Kids", Pluto TV Kids
-https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5df975d37a6a8c0009b2b8d6/master.m3u8
-# Plex – Kids
-#EXTINF:-1 group-title="Kids", Plex Kids
-https://streams.plexapp.com/plex/kids.m3u8
-# Rakuten – Kids (jika tersedia di region)
-#EXTINF:-1 group-title="Kids", Rakuten Kids
-https://rakuten-live.akamaized.net/kids/index.m3u8
-# Fallback
-#EXTINF:-1 group-title="Kids", Toon Goggles
-https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=41
+#EXTINF:-1 group-title="Kids", Global Kids
+https://iptv-org.github.io/iptv/categories/kids.m3u
 
 ##### NEWS #####
-# Pluto – News 24/7
-#EXTINF:-1 group-title="News", Pluto News
-https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5ce20285df8d6d0b36c09e43/master.m3u8
-# Plex – News
-#EXTINF:-1 group-title="News", Plex News
-https://streams.plexapp.com/plex/news.m3u8
-# Rakuten – News (jika tersedia)
-#EXTINF:-1 group-title="News", Rakuten News
-https://rakuten-live.akamaized.net/news/index.m3u8
-# Global stable
-#EXTINF:-1 group-title="News", DW English
-https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/stream05/streamPlaylist.m3u8
-#EXTINF:-1 group-title="News", NHK World
-https://nhkworld.webcdn.stream.ne.jp/www11/nhkworld-tv/global/2003457/live.m3u8
+#EXTINF:-1 group-title="News", Global News
+https://iptv-org.github.io/iptv/categories/news.m3u
+#EXTINF:-1 group-title="News", Malaysia News
+https://iptv-org.github.io/iptv/countries/my.m3u
+#EXTINF:-1 group-title="News", Indonesia News
+https://iptv-org.github.io/iptv/countries/id.m3u
 
 ##### SPORTS #####
-# Pluto – Sports
-#EXTINF:-1 group-title="Sports", Pluto Sports
-https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f5a915c6f6a310007f3a7c4/master.m3u8
-# Plex – Sports (promo/free)
-#EXTINF:-1 group-title="Sports", Plex Sports
-https://streams.plexapp.com/plex/sports.m3u8
-# Rakuten – Sports (jika tersedia)
-#EXTINF:-1 group-title="Sports", Rakuten Sports
-https://rakuten-live.akamaized.net/sports/index.m3u8
-# Global stable
-#EXTINF:-1 group-title="Sports", Red Bull TV
-https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8
+#EXTINF:-1 group-title="Sports", Global Sports
+https://iptv-org.github.io/iptv/categories/sports.m3u
 
 ##### MUSIC #####
-# Pluto – Music
-#EXTINF:-1 group-title="Music", Pluto Music
-https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f1f8f5a307c9300079a1a06/master.m3u8
-# Plex – Music
-#EXTINF:-1 group-title="Music", Plex Music
-https://streams.plexapp.com/plex/music.m3u8
-# Rakuten – Music (jika tersedia)
-#EXTINF:-1 group-title="Music", Rakuten Music
-https://rakuten-live.akamaized.net/music/index.m3u8
-# Global stable
-#EXTINF:-1 group-title="Music", CMC USA
-https://cmc-ono.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="Music", Global Music
+https://iptv-org.github.io/iptv/categories/music.m3u
 
-##### LIFESTYLE / DOC #####
-# Pluto – Travel / Lifestyle (contoh)
-#EXTINF:-1 group-title="Lifestyle", Pluto Travel
-https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f8f8b4a0d0abf0007f7f9e9/master.m3u8
-# Plex – Lifestyle
-#EXTINF:-1 group-title="Lifestyle", Plex Lifestyle
-https://streams.plexapp.com/plex/lifestyle.m3u8
-# Rakuten – Lifestyle
-#EXTINF:-1 group-title="Lifestyle", Rakuten Lifestyle
-https://rakuten-live.akamaized.net/lifestyle/index.m3u8
-# Global stable
-#EXTINF:-1 group-title="Documentary", NASA TV Public
-https://ntv1.akamaized.net/hls/live/2014075/NASA-NTV1-HLS/master_2000.m3u8
+##### LIFESTYLE #####
+#EXTINF:-1 group-title="Lifestyle", Lifestyle Mix
+https://iptv-org.github.io/iptv/categories/lifestyle.m3u
+
+##### DOCUMENTARY #####
+#EXTINF:-1 group-title="Documentary", Documentaries
+https://iptv-org.github.io/iptv/categories/documentary.m3u
+
+##### REGIONAL #####
+#EXTINF:-1 group-title="Regional", Malaysia + Indonesia
+https://iptv-org.github.io/iptv/countries/my.m3u
+https://iptv-org.github.io/iptv/countries/id.m3u
