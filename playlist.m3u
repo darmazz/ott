@@ -1,13 +1,11 @@
-#EXTM3U url-tvg="https://iptv-org.github.io/epg/guides/en.xml,https://iptv-org.github.io/epg/guides/my.xml,https://iptv-org.github.io/epg/guides/id.xml"
+#EXTM3U
 
-##### MOVIES / ENTERTAINMENT #####
-#EXTINF:-1 group-title="Movies", Rakuten Movies
+##### MOVIES / ENTERTAINMENT (campur provider free) #####
+#EXTINF:-1 group-title="Movies", Rakuten Movies (Free)
 https://rakuten-live.akamaized.net/movies/index.m3u8
-#EXTINF:-1 group-title="Movies", Plex Movies
-https://streams.plexapp.com/plex/movies.m3u8
 #EXTINF:-1 group-title="Movies", Runtime Movies
 https://rtmv-vizio.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="Movies", MovieSphere
+#EXTINF:-1 group-title="Movies", MovieSphere (Xumo)
 https://moviesphere.global.ssl.fastly.net/xumo/master.m3u8
 
 ##### KIDS #####
@@ -16,20 +14,20 @@ https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=41
 #EXTINF:-1 group-title="Kids", Paka Paka
 https://srv1.zcast.com.br/pakapaka/pakapaka/playlist.m3u8
 
-##### NEWS #####
-#EXTINF:-1 group-title="News", DW English
+##### NEWS (global) #####
+#EXTINF:-1 tvg-id="DWEnglish.de" group-title="News", DW English
 https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/stream05/streamPlaylist.m3u8
-#EXTINF:-1 group-title="News", NHK World
+#EXTINF:-1 tvg-id="NHKWorld.jp" group-title="News", NHK World
 https://nhkworld.webcdn.stream.ne.jp/www11/nhkworld-tv/global/2003457/live.m3u8
-#EXTINF:-1 group-title="News", France 24 English
+#EXTINF:-1 tvg-id="France24English.fr" group-title="News", France 24 English
 https://static.france24.com/live/F24_EN_HI_HLS/live_web.m3u8
-#EXTINF:-1 group-title="News", France 24 Français
+#EXTINF:-1 tvg-id="France24.fr" group-title="News", France 24 Français
 https://static.france24.com/live/F24_FR_HI_HLS/live_web.m3u8
-#EXTINF:-1 group-title="News", Al Jazeera English
+#EXTINF:-1 tvg-id="AlJazeeraEnglish.qa" group-title="News", Al Jazeera English
 https://live-hls-web-aje.getaj.net/AJE/01.m3u8
-#EXTINF:-1 group-title="News", TRT World
+#EXTINF:-1 tvg-id="TRTWorld.tr" group-title="News", TRT World
 https://tv-trtworld.live.trt.com.tr/master.m3u8
-#EXTINF:-1 group-title="News", Arirang World
+#EXTINF:-1 tvg-id="Arirang.kr" group-title="News", Arirang World
 https://amdlive-ch01.ctnd.com.edgesuite.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8
 
 ##### SPORTS #####
@@ -39,7 +37,7 @@ https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8
 ##### MUSIC #####
 #EXTINF:-1 group-title="Music", CMC USA
 https://cmc-ono.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="Music", Qello Concerts
+#EXTINF:-1 group-title="Music", Qello Concerts (Free loop)
 https://qello-concerts.samsung.wurl.com/manifest/playlist.m3u8
 
 ##### LIFESTYLE / DOCUMENTARY #####
@@ -49,7 +47,7 @@ https://fash1043.cloudycdn.services/slive/_definst_/ftv_ftv_4k_hevc_73d_42080_de
 https://ntv1.akamaized.net/hls/live/2014075/NASA-NTV1-HLS/master_2000.m3u8
 
 ##### REGIONAL (MY / ID) #####
-#EXTINF:-1 group-title="Regional", TVRI World (Indonesia)
+#EXTINF:-1 tvg-id="TVRIWorld.id" group-title="Regional", TVRI World (ID)
 https://ott.tvri.co.id/Content/HLS/Live/Channel(TVRI3)/index.m3u8
-#EXTINF:-1 group-title="Regional", Bernama Radio (Malaysia)
+#EXTINF:-1 group-title="Regional", Bernama Radio (MY, audio)
 https://radio.bharian.com.my/bernamaradio.m3u8
