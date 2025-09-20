@@ -1,19 +1,23 @@
 #EXTM3U
 
 ##### MOVIES #####
-#EXTINF:-1 group-title="Movies", Pluto Movies
+#EXTINF:-1 group-title="Movies", Global Movies (IPTV-org)
 https://iptv-org.github.io/iptv/categories/movies.m3u
-
-##### ENTERTAINMENT #####
-#EXTINF:-1 group-title="Entertainment", Global Entertainment
-https://iptv-org.github.io/iptv/categories/entertainment.m3u
+#EXTINF:-1 group-title="Movies", Rakuten Movies (placeholder)
+https://rakuten-live.akamaized.net/movies/index.m3u8
+#EXTINF:-1 group-title="Movies", Plex Movies (placeholder)
+https://streams.plexapp.com/plex/movies.m3u8
+#EXTINF:-1 group-title="Movies", Pluto Movies (placeholder)
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5d8d7b34d676980009bbf86f/master.m3u8
 
 ##### KIDS #####
-#EXTINF:-1 group-title="Kids", Global Kids
+#EXTINF:-1 group-title="Kids", Global Kids (IPTV-org)
 https://iptv-org.github.io/iptv/categories/kids.m3u
+#EXTINF:-1 group-title="Kids", Toon Goggles
+https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=41
 
 ##### NEWS #####
-#EXTINF:-1 group-title="News", Global News
+#EXTINF:-1 group-title="News", Global News (IPTV-org)
 https://iptv-org.github.io/iptv/categories/news.m3u
 #EXTINF:-1 group-title="News", Malaysia News
 https://iptv-org.github.io/iptv/countries/my.m3u
@@ -21,22 +25,21 @@ https://iptv-org.github.io/iptv/countries/my.m3u
 https://iptv-org.github.io/iptv/countries/id.m3u
 
 ##### SPORTS #####
-#EXTINF:-1 group-title="Sports", Global Sports
+#EXTINF:-1 group-title="Sports", Global Sports (IPTV-org)
 https://iptv-org.github.io/iptv/categories/sports.m3u
+#EXTINF:-1 group-title="Sports", Red Bull TV
+https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8
 
 ##### MUSIC #####
-#EXTINF:-1 group-title="Music", Global Music
+#EXTINF:-1 group-title="Music", Global Music (IPTV-org)
 https://iptv-org.github.io/iptv/categories/music.m3u
+#EXTINF:-1 group-title="Music", CMC USA
+https://cmc-ono.amagi.tv/playlist.m3u8
 
-##### LIFESTYLE #####
-#EXTINF:-1 group-title="Lifestyle", Lifestyle Mix
+##### LIFESTYLE / DOCUMENTARY #####
+#EXTINF:-1 group-title="Lifestyle", Global Lifestyle (IPTV-org)
 https://iptv-org.github.io/iptv/categories/lifestyle.m3u
-
-##### DOCUMENTARY #####
-#EXTINF:-1 group-title="Documentary", Documentaries
+#EXTINF:-1 group-title="Documentary", Global Documentary (IPTV-org)
 https://iptv-org.github.io/iptv/categories/documentary.m3u
-
-##### REGIONAL #####
-#EXTINF:-1 group-title="Regional", Malaysia + Indonesia
-https://iptv-org.github.io/iptv/countries/my.m3u
-https://iptv-org.github.io/iptv/countries/id.m3u
+#EXTINF:-1 group-title="Documentary", NASA TV Public
+https://ntv1.akamaized.net/hls/live/2014075/NASA-NTV1-HLS/master_2000.m3u8
